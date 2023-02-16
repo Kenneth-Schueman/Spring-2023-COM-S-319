@@ -1,0 +1,24 @@
+.myh1class {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.mypclass {
+    color: red;
+    font-family: bolder;
+    background-color: transparent;
+}
+
+#idh2 {
+    color: blue;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#idp2 {
+    color: black;
+    font-family: bolder;
+    background-color: transparent;
+}

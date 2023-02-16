@@ -1,0 +1,90 @@
+<!-- Author: Kenneth Schueman
+    ISU Netid : kenschue@iaste.edu
+    Date : January 23th, 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Cascading Style Sheets - Summary </title>
+    <style>
+        div {
+            border: 1px solid gray;
+            padding: 8px;
+        }
+                
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #4CAF50;
+        }
+        
+        h3 {
+            text-align: left;
+            color: #4CAF50;
+        }
+        
+        p {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+        }
+
+        .moviestitle {
+            background-color: #4caf4f2a;
+        }
+        .highlightbook {
+            font-weight: bold;
+            background-color: #1d1f1dab;
+            color: white;
+        }
+        .highlightyear {
+            color: red;
+        }
+        #head3improve_1 {
+            color: black;
+            font-size: xx-large;
+            letter-spacing: 5px;
+        }
+        #head3improve_2 {
+            color: black;
+            font-size: xx-large;
+            letter-spacing: 5px;
+            text-align: right;
+        }
+        #stanlee{
+            letter-spacing: 5px;
+            color: blue;
+            font-weight: bolder;
+        }
+    </style>
+        </head>
+    <body>  
+        <div>
+            <h1>#head3improve_2{color: black;}</h1>
+            <p>Type: Tag</p>
+            <p>Why? : </p>
+
+            <h1>.moviestitle {background-color: #4caf4f2a;}</h1>
+            <p>Type: Class</p>
+            <p>Why? : These stylistic changes apply to all span="movietitle"</p>
+
+            <h1>p {text-indent: 50px;text-align: justify;}</h1>
+            <p>Type: Tag</p>
+            <p>Why? : These stylistic changes apply to all section with p tags</p>
+
+            <h1>.highlightbook {font-weight: bold;color: white;}</h1>
+            <p>Type: Class</p>
+            <p>Why? : These stylistic changes apply to all span="highlightbook"</p>
+
+            <h1>#stanlee{letter-spacing: 5px;color: blue;}</h1>
+            <p>Type: id</p>
+            <p>Why? : These stylistic changes only apply to span id="stanlee"</p>
+
+            <h1>h3 {text-align: left;color: #4CAF50;}</h1>
+            <p>Type: Tag</p>
+            <p>Why? : These stylistic changes apply to all section with h3 tags</p>
+        </div>
+    </body>   
+</html>
